@@ -19,7 +19,6 @@ https://www.biggerpockets.com/users/spike
 https://www.bikemap.net/en/u/spike/routes/created/
 https://bitbucket.org/spike/
 https://community.bitwarden.com/u/spike/summary
-https://spike.blogspot.com
 https://www.bookcrossing.com/mybookshelf/spike/
 https://buymeacoff.ee/spike
 https://buzzfeed.com/spike
@@ -32,10 +31,12 @@ https://profil.chatujme.cz/spike
 https://www.chess.com/member/spike
 https://clapperapp.com/spike
 https://www.clubhouse.com/@spike
+https://www.codecademy.com/profiles/spike
 https://www.codechef.com/users/spike
 https://codeforces.com/profile/spike
 https://coderwall.com/spike
 https://www.codewars.com/users/spike
+https://spike.contently.com/
 https://www.coroflot.com/spike
 https://crowdin.com/profile/spike
 https://cults3d.com/en/users/spike/creations
@@ -51,15 +52,14 @@ https://www.duolingo.com/profile/spike
 https://community.eintracht.de/fans/spike
 https://spike.exposure.co/
 https://www.finanzfrage.net/nutzer/spike
-https://www.flickr.com/people/spike
 https://my.flightradar24.com/spike
 https://flipboard.com/@spike
 https://fosstodon.org/@spike
 https://www.freelancer.com/u/spike
 https://freesound.org/people/spike/
 https://www.g2g.com/spike
-https://www.gaiaonline.com/profiles/spike
 https://www.gamespot.com/profile/spike/
+https://auth.geeksforgeeks.org/user/spike
 https://genius.com/artists/spike
 https://genius.com/spike
 https://www.gesundheitsfrage.net/nutzer/spike
@@ -88,9 +88,7 @@ https://www.itemfix.com/c/spike
 https://keybase.io/spike
 https://kik.me/spike
 https://www.kongregate.com/accounts/spike
-https://launchpad.net/~spike
 https://leetcode.com/spike
-https://www.lesswrong.com/users/@spike
 https://letterboxd.com/spike
 https://lichess.org/@/spike
 https://linktr.ee/spike
@@ -99,10 +97,10 @@ https://forums.mmorpg.com/profile/spike
 https://mapify.travel/spike
 https://medium.com/@spike
 https://www.memrise.com/user/spike/
-https://api.mojang.com/users/profiles/minecraft/spike
 https://www.mixcloud.com/spike/
 https://monkeytype.com/profile/spike
 https://www.motorradfrage.net/nutzer/spike
+https://myanimelist.net/profile/spike
 https://www.myminifactory.com/users/spike
 https://www.mydramalist.com/profile/spike
 https://myspace.com/spike
@@ -111,6 +109,7 @@ https://www.needrom.com/author/spike/
 https://spike.newgrounds.com
 https://nightbot.tv/t/spike/commands
 https://www.nitrotype.com/racer/spike
+https://nyaa.si/user/spike
 https://www.openstreetmap.org/user/spike
 https://opensource.com/users/spike
 https://community.oracle.com/people/spike
@@ -121,9 +120,11 @@ https://www.patreon.com/spike
 https://www.pinkbike.com/u/spike/
 https://pokemonshowdown.com/users/spike
 https://polarsteps.com/spike
+https://www.polygon.com/users/spike
 https://pypi.org/user/spike
 https://rateyourmusic.com/~spike
 https://www.redbubble.com/people/spike
+https://www.reddit.com/user/spike
 https://www.reisefrage.net/nutzer/spike
 https://replit.com/@spike
 https://www.reverbnation.com/spike
@@ -131,6 +132,7 @@ https://rubygems.org/profiles/spike
 https://rumble.com/user/spike
 https://swapd.co/u/spike
 https://www.sbazar.cz/spike
+https://scratch.mit.edu/users/spike
 https://www.scribd.com/spike
 https://www.shpock.com/shop/spike/items
 https://sketchfab.com/spike
@@ -140,8 +142,8 @@ https://slideshare.net/spike
 https://slides.com/spike
 https://spike.smugmug.com
 https://www.smule.com/spike
-https://soundcloud.com/spike
 https://sourceforge.net/u/spike
+https://splits.io/users/spike
 https://open.spotify.com/user/spike
 https://robertsspaceindustries.com/citizens/spike
 https://steamcommunity.com/groups/spike
@@ -157,10 +159,7 @@ https://tryhackme.com/p/spike
 https://tuna.voicemod.net/user/spike
 https://tweakers.net/gallery/spike
 https://www.twitch.tv/spike
-https://twitter.com/spike
-https://data.typeracer.com/pit/profile?user=spike
 https://ultimate-guitar.com/u/spike
-https://unsplash.com/@spike
 https://vsco.co/spike
 https://forum.velomania.ru/member.php?username=spike
 https://account.venmo.com/u/spike
@@ -219,4 +218,4 @@ https://pikabu.ru/@spike
 https://pr0gramm.com/user/spike
 https://satsis.info/user/spike
 https://www.wykop.pl/ludzie/spike
-Total Websites Username Detected On : 221
+Total Websites Username Detected On : 220
