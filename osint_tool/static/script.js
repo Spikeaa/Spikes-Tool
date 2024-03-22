@@ -14,11 +14,13 @@ document.getElementById('searchBtn').addEventListener('click', function() {
 });
 
 
-
+/*
 
 // Basic example to attach to the drag-and-drop events
 document.addEventListener('DOMContentLoaded', (event) => {
     let dropArea = document.getElementById('drop-area');
+
+
 
     ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
         dropArea.addEventListener(eventName, preventDefaults, false);
@@ -58,7 +60,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
             console.log(data);
         })
         .catch(() => {
-            /* Handle error */
+         //    Handle error 
         });
     }
 });
+
+
+*/
