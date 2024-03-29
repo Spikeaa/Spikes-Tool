@@ -67,3 +67,24 @@ body {
     padding: 20px;
     display: none; /* Initially hide the results */
 }
+
+
+
+
+
+
+
+
+.breach-service-logos img {
+    width: 600px; /* Set a standard width for all logos */
+    height: auto; /* Maintain aspect ratio */
+    padding: 10px; /* Optional: add some space around the images */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.breach-service-logos a {
+    display: inline-block; /* Align logos next to each other */
+    text-align: center; /* Center the images in their link containers */
+    margin: 10px; /* Optional: add space between logos */
+    vertical-align: middle; /* Align logos vertically */
+}
