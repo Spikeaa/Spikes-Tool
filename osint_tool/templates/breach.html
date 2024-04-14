@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spike's OSINT Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <!-- Make sure to include styles for the logos and links -->
+</head>
+<body>
+
+<div class="navbar">
+    <a href="/people">People Search</a>
+    <a href="/face">Facial / Image</a>
+    <a href="/username">Username / Socials</a>
+    <a href="/breach">Breach Search</a>
+    <a href="/crypto">Crypto</a>
+    <a href="/metadata">Misc. personal info</a>
+</div>
+
+<div class="main-content">
+    <h2 class="free-services-heading">Free Services and No Account Needed:</h2>
+    <div class="breach-service-logos">
+        <a href="https://haveibeenpwned.com" target="_blank">
+            <img src="{{ url_for('static', filename='images/haveibeenpwned-logo.png') }}" alt="Have I Been Pwned Logo">
+        </a>
+        <a href="https://breachdirectory.org" target="_blank">
+            <img src="{{ url_for('static', filename='images/breachdirectory-logo.png') }}" alt="Breach Directory Logo">
+        </a>
+    </div>
+
+    <h2 class="paid-services-heading">Paid Services or Account Needed:</h2>
+    <div class="breach-service-logos">
+        <a href="https://snusbase.com" target="_blank">
+            <img src="{{ url_for('static', filename='images/snusbase-logo.png') }}" alt="Snusbase Logo">
+        </a>
+        <a href="https://dehashed.com" target="_blank">
+            <img src="{{ url_for('static', filename='images/dehashed-logo.png') }}" alt="Dehashed Logo">
+        </a>
+        <a href="https://osint.industries" target="_blank">
+            <img src="{{ url_for('static', filename='images/osint-industries-logo.png') }}" alt="OSINT Industries Logo">
+        </a>
+        <a href="https://leakcheck.io" target="_blank">
+            <img src="{{ url_for('static', filename='images/leakcheck-logo.png') }}" alt="LeakCheck Logo">
+        </a>
+        <a href="https://leakpeek.com" target="_blank">
+            <img src="{{ url_for('static', filename='images/leakpeek-logo.png') }}" alt="LeakCheck Logo">
+        </a>
+    </div>
+</div>
+
+</body>
+</html>

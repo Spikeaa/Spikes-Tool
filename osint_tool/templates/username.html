@@ -1,6 +1,4 @@
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,20 +9,22 @@
 <body>
 
 <div class="navbar">
-    <a href="#people-search">People Search</a>
+    <a href="/people">People Search</a>
     <a href="/face">Facial / Image</a>
     <a href="/username">Username / Socials</a>
-    <a href="#breach-search">Breach Search</a>
+    <a href="/breach">Breach Search</a>
     <a href="/crypto">Crypto</a>
-    <a href="#misc-personal-info">Misc. personal info</a>
+    <a href="/metadata">Misc. personal info</a>
 </div>
 
 <div class="search-container">
+    <h1 class="username-search-heading">Username Searching Tool 'Sherlock'</h1>
+    <h2 class="username-search-subheading">Input a Username in the box below!</h2>
     <input type="text" id="username" placeholder="Enter username to search">
     <button id="searchBtn">Search</button>
 </div>
 <div id="results">
-        <!-- Results will be displayed here -->
+    <!-- Results will be displayed here -->
 </div>
 
 <script src="{{ url_for('static', filename='script.js') }}"></script>

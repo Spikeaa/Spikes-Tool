@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spike's OSINT Tool - People Search</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+<div class="navbar">
+    <a href="/people">People Search</a>
+    <a href="/face">Facial / Image</a>
+    <a href="/username">Username / Socials</a>
+    <a href="/breach">Breach Search</a>
+    <a href="/crypto">Crypto</a>
+    <a href="/metadata">Misc. personal info</a>
+</div>
+
+<div class="main-content">
+    <h2 class="people-search-heading">People Search Services:</h2>
+    <div class="people-search-logos">
+        <!-- Insert the generated logos after the href links -->
+        <a href="https://www.truepeoplesearch.com" target="_blank" class="people-search-logo">
+            <img src="{{ url_for('static', filename='images/truepeoplesearch-logo.png') }}" alt="truepeoplesearch logo">
+        </a>
+        <a href="https://www.familytreenow.com" target="_blank" class="people-search-logo">
+            <img src="{{ url_for('static', filename='images/familytreenow-logo.png') }}" alt="familytreenow logo">
+        </a>
+        <a href="https://www.thatsthem.com" target="_blank" class="people-search-logo">
+            <img src="{{ url_for('static', filename='images/thatsthem-logo.png') }}" alt="thatsthem logo">
+        </a>
+        <a href="https://www.searchpeoplefree.com" target="_blank" class="people-search-logo">
+            <img src="{{ url_for('static', filename='images/searchpeoplefree-logo.png') }}" alt="searchpeoplefree logo">
+        </a>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

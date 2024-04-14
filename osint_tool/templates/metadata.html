@@ -2,40 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Spike's OSINT Tool</title>
+    <title>Spike's OSINT Tool - Image Metadata Analyzer</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
 
 <div class="navbar">
-    <a href="#people-search">People Search</a>
+    <a href="/people">People Search</a>
     <a href="/face">Facial / Image</a>
     <a href="/username">Username / Socials</a>
-    <a href="#breach-search">Breach Search</a>
+    <a href="/breach">Breach Search</a>
     <a href="/crypto">Crypto</a>
-    <a href="#misc-personal-info">Misc. personal info</a>
+    <a href="/metadata">Misc. personal info</a>
 </div>
 
 <div class="main-content">
-    <h1>Image Metadata Analyser</h1>
-    <form action="/metadata" method="post" enctype="multipart/form-data">
-        <input type="file" name="image">
-        <input type="submit" value="Analyse">
-    </form>
-    {% if metadata %}
-    <div id="metadata-results">
-        <h2>Metadata Results</h2>
-        {% if metadata.items %}
-            <ul>
-                {% for tag, value in metadata.items() %}
-                    <li>{{ tag }}: {{ value }}</li>
-                {% endfor %}
-            </ul>
-        {% else %}
-            <p>{{ metadata['Error'] }}</p>
-        {% endif %}
+    <h1>Image Metadata Analyzer</h1>
+    <div class="iframe-container">
+        <iframe src="https://exifinfo.org" style="width:100%; height:80vh;" frameborder="0">
+            <p>Your browser does not support iframes.</p>
+        </iframe>
     </div>
-{% endif %}
 </div>
 
 <script src="{{ url_for('static', filename='script.js') }}"></script>

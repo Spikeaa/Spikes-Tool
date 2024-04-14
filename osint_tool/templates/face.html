@@ -8,22 +8,28 @@
 <body>
 
 <div class="navbar">
-    <a href="#people-search">People Search</a>
+    <a href="/people">People Search</a>
     <a href="/face">Facial / Image</a>
     <a href="/username">Username / Socials</a>
-    <a href="#breach-search">Breach Search</a>
+    <a href="/breach">Breach Search</a>
     <a href="/crypto">Crypto</a>
-    <a href="#misc-personal-info">Misc. personal info</a>
+    <a href="/metadata">Misc. personal info</a>
 </div>
 
 <div class="main-content">
-    <h1>Facial Analysis</h1>
-    <div id="iframe-container">
-        <iframe src="https://www.facecheck.id" width="600" height="400">
-            <p>Your browser does not support iframes.</p>
-        </iframe>
+    <h2>Facial Analysis</h2>
+    <div class="service-container">
+        <div class="iframe-container">
+            <iframe src="https://www.facecheck.id" style="width: 95%; height: 95vh;">
+                <p>Your browser does not support iframes.</p>
+            </iframe>
+        </div>
+        <div class="pimeyes-logo-container">
+            <a href="https://www.pimeyes.com/en" target="_blank">
+                <img src="{{ url_for('static', filename='images/pimeyes-logo.png') }}" alt="PimEyes Logo">
+            </a>
+        </div>
     </div>
-    <a href="https://www.pimeyes.com/en" target="_blank">Link to PimEyes</a>
 </div>
 
 <script src="{{ url_for('static', filename='script.js') }}"></script>

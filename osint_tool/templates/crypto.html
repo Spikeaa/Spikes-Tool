@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,17 +8,27 @@
 <body>
 
 <div class="navbar">
-    <a href="#people-search">People Search</a>
-    <a href="#facial-image">Facial / Image</a>
+    <a href="/people">People Search</a>
+    <a href="/face">Facial / Image</a>
     <a href="/username">Username / Socials</a>
-    <a href="#breach-search">Breach Search</a>
+    <a href="/breach">Breach Search</a>
     <a href="/crypto">Crypto</a>
-    <a href="#misc-personal-info">Misc. personal info</a>
+    <a href="/metadata">Misc. personal info</a>
 </div>
 
 <div class="main-content">
-    <h1>Welcome to Spike's Tool</h1>
-    <!-- Add your content here -->
+    <h1>Explore a Crypto Address!</h1>
+    <form id="blockchainExplorerForm">
+        <div class="form-group">
+            <label for="addressInput">Search for a BTC or ETH address here:</label>
+            <input type="text" id="addressInput" name="address" required>
+            <select id="currencySelect" name="currency">
+                <option value="btc">Bitcoin (BTC)</option>
+                <option value="eth">Ethereum (ETH)</option>
+            </select>
+            <button type="button" onclick="openBlockchainExplorer()">Search</button>
+        </div>
+    </form>
 </div>
 
 <script src="{{ url_for('static', filename='script.js') }}"></script>

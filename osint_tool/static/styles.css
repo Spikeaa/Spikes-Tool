@@ -1,5 +1,3 @@
-
-
 .search-container {
     margin: 20px;
     text-align: center;
@@ -27,31 +25,42 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+
 }
 
 .navbar {
-    background-color: #333;
+    background-color: #3354f5;
     overflow: hidden;
 }
 
 .navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #e7e7e7;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 30px;
     text-decoration: none;
+    transition: background-color 0.3s;
+    font-size: 20px;
 }
 
 .navbar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #34495e;
+    color: #f2f2f2;
 }
 
 .main-content {
     margin: 15px;
+    background-color: #ecf0f1;
+    text-align: center;
 }
 
+.main-content h2 {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif; /* Change the font */
+    color: #000000; /* Change the color */
+    font-size: 40px; /* Change the font size */
+    margin-bottom: 20px; /* Adjust spacing below the heading */
+}
 
 
 /* New CSS for file upload and results */
@@ -66,4 +75,208 @@ body {
     border: 1px solid #ccc;
     padding: 20px;
     display: none; /* Initially hide the results */
+}
+
+
+
+
+
+
+
+
+.breach-service-logos img {
+    width: 600px; /* Set a standard width for all logos */
+    height: auto; /* Maintain aspect ratio */
+    padding: 10px; /* Optional: add some space around the images */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.breach-service-logos a {
+    display: inline-block; /* Align logos next to each other */
+    text-align: center; /* Center the images in their link containers */
+    margin: 10px; /* Optional: add space between logos */
+    vertical-align: middle; /* Align logos vertically */
+}
+
+
+.breach-service-logos a:hover img {
+    transform: scale(1.1); /* Enlarge the logo to 110% of its size */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for the scaling effect */
+}
+
+
+
+
+
+/*face*/
+
+.service-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iframe-container,
+.pimeyes-logo-container {
+    flex: 1;
+    text-align: center; /* Center the content */
+    padding: 10px; /* Add some padding around the iframe and logo */
+}
+
+.pimeyes-logo-container img {
+    max-width: 100%; /* Ensure the logo is responsive and fits its container */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+}
+
+.pimeyes-logo-container:hover img {
+    transform: scale(1.1); /* Enlarge the logo on hover */
+}
+
+
+
+
+
+
+/*crypto*/
+
+
+
+.main-content h1 {
+    font-size: 48px; /* Make the title bigger */
+    margin-bottom: 30px; /* More space below the title */
+}
+
+.form-group {
+    max-width: 800px; /* Set a max-width for the form */
+    margin: auto; /* Center the form in the page */
+    padding: 20px;
+    background-color: #fff; /* Optional: change the background color */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#blockchainExplorerForm label,
+#blockchainExplorerForm input,
+#blockchainExplorerForm select,
+#blockchainExplorerForm button {
+    font-size: 20px; /* Increase font size for form elements */
+    margin: 10px; /* Add space around form elements */
+}
+
+#addressInput,
+#currencySelect {
+    width: 100%; /* Full width of the form group */
+    padding: 15px; /* Larger padding for larger click area */
+    margin: 10px 0; /* Spacing for top and bottom */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners for input and select */
+}
+
+#blockchainExplorerForm button {
+    padding: 15px 30px; /* Larger padding for a bigger button */
+    background-color: #3498db; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none; /* No border */
+    cursor: pointer; /* Cursor to pointer to indicate clickable */
+    border-radius: 5px; /* Rounded corners for button */
+}
+
+#blockchainExplorerForm button:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+}
+
+
+
+
+
+
+
+
+/*username/sherlock*/
+
+/* Larger text for each result */
+#results a {
+    font-size: 18px; /* Increased font size for links */
+    line-height: 1.6; /* Increased line height for better readability */
+    display: block; /* Each link on a new line */
+}
+
+/* Heading for the username search tool */
+.username-search-heading {
+    font-size: 32px;
+    color: #3498db; /* Change as per your color scheme */
+    margin-top: 30px;
+}
+
+/* Subheading */
+.username-search-subheading {
+    font-size: 24px;
+    color: #7f8c8d; /* Change as per your color scheme */
+    margin-bottom: 20px;
+}
+
+/* Styling for the input box */
+#username {
+    padding: 15px 10px; /* Larger padding for a taller input box */
+    font-size: 18px; /* Larger font size for the text inside the input box */
+    width: 50%; /* Or desired width */
+    margin-bottom: 10px; /* Space below the input box */
+    border: 2px solid #3498db; /* Border color to match the heading */
+    border-radius: 5px; /* Rounded corners for the input box */
+}
+
+/* Styling for the output box */
+#results {
+    padding: 20px;
+    border: 2px solid #3498db; /* Border color to match the heading */
+    border-radius: 5px; /* Rounded corners for the output box */
+    max-width: 800px; /* Set a max-width for the results */
+    margin: 20px auto; /* Center the results box */
+    background-color: #ecf0f1; /* Slight background color */
+    overflow-y: auto; /* In case of many results */
+    max-height: 500px; /* Maximum height before scrolling */
+}
+
+
+
+
+
+
+
+
+/*people search*/
+
+.people-search-heading {
+    text-align: center;
+    margin: 20px;
+    font-size: 24px;
+}
+
+.people-search-logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates a 2x2 grid layout */
+    gap: 20px; /* Space between logos */
+    max-width: 600px;
+    margin: 0 auto; /* Center the grid in the middle of the page */
+    padding: 20px;
+}
+
+.people-search-logo {
+    width: 100%;
+    display: block; /* Makes the anchor block level for width to take effect */
+    text-align: center; /* Center the images within the links */
+}
+
+.people-search-logo img {
+    width: 100%; /* Makes the image responsive to the size of the .people-search-logo */
+    height: auto; /* Keep aspect ratio */
+    transition: transform 0.3s ease; /* Smooth scaling transition */
+}
+
+.people-search-logo:hover img {
+    transform: scale(1.05); /* Slightly enlarges the logo on hover */
 }

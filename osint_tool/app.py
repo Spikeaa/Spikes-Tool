@@ -24,30 +24,42 @@ def crypto():
 def face():
     return render_template('face.html')
     
+
+
+@app.route('/breach')
+def breach():
+    return render_template('breach.html')   
     
-    
-    
+
+@app.route('/people')
+def people():
+    return render_template('people.html') 
 
 
 
-
+#all the metadata code not actually used in current version.
+#was used for a previous metadata analysis implementation,
+#but it can be left here for further development.
 @app.route('/metadata', methods=['GET', 'POST'])
 def metadata():
-    metadata_results = {}  # Initialize as an empty dictionary
+    metadata_results = {}
     if request.method == 'POST':
         file = request.files['image']
+        print('Received image:', file)  # Print file for debugging
         if file:
             try:
                 img = Image.open(BytesIO(file.read()))
                 metadata = img._getexif()
+                print('Extracted metadata:', metadata)  # Print metadata for debugging
                 if metadata:
                     metadata_results = {Image.TAGS.get(tag, tag): value for tag, value in metadata.items()}
                 else:
                     metadata_results['Error'] = 'No metadata found'
-            except UnidentifiedImageError:
-                metadata_results['Error'] = 'Unidentified image file. Please upload a valid image.'
+            except Exception as e:  # Catch all exceptions and print them
+                print('Error:', e)
+                metadata_results['Error'] = str(e)
+    print('Metadata results being passed to template:', metadata_results)  # Final results
     return render_template('metadata.html', metadata=metadata_results)
-
 
 if __name__ == '__main__':
     app.run(debug=True)
