@@ -23,3 +23,6 @@ After this, navigate to the web address:
 http://127.0.0.1:5000/people
 
 Now you can use the tool!
+
+![image](https://github.com/user-attachments/assets/8ce5dfa9-b360-4935-beca-3865ca665381)
+
